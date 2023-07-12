@@ -1,0 +1,29 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220817132732
+Username: NEWVISIONSOFT\Siddhartha.chaurasia
+RunAs User: NEWVISIONSOFT\Siddhartha.chaurasia
+Configuration Name: 
+Machine: SCHAURASIA1 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'E:\SVNCheckOuts\6.ConfigTools\SecurityTestRunner\SecurityTestRunner.ps1'
+Process ID: 13240
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Logs\SecurityTestRunner_08-17-2022-13-27-32.log
+=========================================================
+************** Modules **************
+=========================================================
+ 1  -  Verify SSL, TLS and Ciphers Configuration - AWS
+ 2  -  Check the Current Status of Ciphers - AWS
+ 3  -  Verify SSL, TLS and Ciphers Configuration - On-Premies
+ 4  -  Check the Current Status of Ciphers - On-Premies
+ 0  -  Quit
+=========================================================
+Incorrect Option, Please enter the correct number!!

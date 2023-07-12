@@ -1,0 +1,13 @@
+$ServerListFile = "C:\Users\ccgsconfig\Desktop\flags\Machines.txt"
+
+$ServerList = Get-Content $ServerListFile -ErrorAction SilentlyContinue
+
+ForEach($computername in $ServerList)
+
+{
+
+Invoke-Command -ComputerName $computername  -ErrorAction Inquire -ScriptBlock {hostname
+
+D:\CC_Runtime\dt.exe -s MessageParsing "0"}
+
+}

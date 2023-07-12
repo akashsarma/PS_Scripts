@@ -1,0 +1,12 @@
+#Start Services
+$ServerListFile = "C:\Users\ccgsconfig\Desktop\list\servers.txt"  
+$ServerList = Get-Content $ServerListFile -ErrorAction 
+ForEach($computername in $ServerList) 
+{
+write-host  $computername
+$services = Get-WmiObject Win32_Service -Computer $computername -filter "Name = 'dbbStartupService' OR Name = 'SNMP' OR Name= 'filebeat' OR Name= 'MetricBeat' OR Name= 'winlogbeat'" 
+$services 
+foreach ($service in $services) {
+$service.startservice()
+}
+}

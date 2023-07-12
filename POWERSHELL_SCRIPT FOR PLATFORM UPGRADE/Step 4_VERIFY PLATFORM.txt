@@ -1,0 +1,7 @@
+#VERIFY PLATFORM
+$ServerListFile = "C:\Users\ccgsconfig\Desktop\list\servers.txt"  
+$ServerList = Get-Content $ServerListFile -ErrorAction SilentlyContinue 
+ForEach($computername in $ServerList) 
+{
+Select-String -Path \\$computername\D$\CC_Runtime\appsys30.dsl -Pattern "Platform Release 4.2."
+}

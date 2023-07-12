@@ -1,0 +1,30 @@
+CHANGE USER TO NODOWNTIME
+____________________________________________________________________________________________________________________
+
+ 
+
+
+$password = ConvertTo-SecureString 'Zx(U5CR&Q#' -AsPlainText -Force
+$credential = New-Object System.Management.Automation.PSCredential ('PERF-PLAT\nodowntime', $password)
+
+ 
+
+$ServerListFile = "C:\Users\ccgsconfig\Desktop\New folder (2)\Servers.txt"  
+$ServerList = Get-Content $ServerListFile -ErrorAction inquire 
+ForEach($computername in $ServerList) 
+{
+write-host  $computername
+$services = Get-WmiObject Win32_Service -Computer $computername -filter "Name = 'dbbStartupService'" 
+$services.Change($null,
+   $null,
+   $null,
+   $null,
+   $null,
+   $null,
+   $credential.UserName,
+   $credential.GetNetworkCredential().Password,
+   $null,
+   $null,
+   $null
+ ) 
+}

@@ -1,0 +1,13 @@
+#UPGRADE CC_Runtime and CoreCard_Services
+
+$ServerListFile = "C:\Users\ccgsconfig\Desktop\list\servers.txt"  
+$ServerList = Get-Content $ServerListFile -ErrorAction inquire 
+ForEach($computername in $ServerList) 
+{
+$computername
+robocopy \\prodfs01\d$\Upgrade_Packages\20July2020\PlatformUpgrade_4.2.41.8\CC_Runtime\ \\$computername\d$\CC_Runtime\ /e
+
+robocopy \\prodfs01\d$\Upgrade_Packages\20July2020\PlatformUpgrade_4.2.41.8\corecard_services\ \\$computername\D$\corecard_services\ /e
+
+}
+

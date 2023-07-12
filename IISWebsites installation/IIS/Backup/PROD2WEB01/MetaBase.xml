@@ -1,0 +1,576 @@
+﻿<?xml version ="1.0"?>
+<configuration xmlns="urn:microsoft-catalog:XML_Metabase_V269_0">
+<MBProperty>
+<IIS_Global	Location ="."
+		BINSchemaTimeStamp="7b9153cc3f47d501"
+		ChangeNumber="1098"
+		HistoryMajorVersionNumber="135"
+		SessionKey="49634b62980000004c00000040000000010200000168000000a40000be985fb04c2b091d3e2b19cd8450823e94ae0df297ac20f6ecfd779f6dc1c9372bb25b8a05c09f4fae1703b6a74c98d3f5b6220732f0bfb92ebe55af99f3f6ae000000003012fa848e2d17c7ba08d8675f0e92d2680c7ed8497853127e3632d1225f16e8010e97659cf246d32a4510062906df6bca4467adeb359bc3472a88378e9fada4"
+		XMLSchemaTimeStamp="c00654cc3f47d501"
+	>
+</IIS_Global>
+<IIS_ROOT	Location ="/"
+		AdminACL="49634462e00000009800000040000000f7c5167fb41f7dae044b7d9fe8af3396e107f7dff8c2a7ef624ea1091829fc8601dbaf2a292edb353dc3dd8491e9580c1da38701b0a30d95d0e0826b9dd4440a73dbcd506bc8865eb9a4bf4be42b048d24ccf4c7d178dd5e2eb55954fd0b09401469df7439cac7f215f8e15d3008157bac1d64971629f75bb1f29643110c7f303dcfb686845654b33daf99e96b9b5b423633e25867bde39828239781738bc2978a9b24e2c9d2419232784cc7afe353831b63b64da0e38b2dab54afd3ff32933f2a0a2c7d7c5c3fa4203f6f272f392ad851f975bb93254f59"
+	>
+</IIS_ROOT>
+<IIsComputer	Location ="/LM"
+		EnableEditWhileRunning="0"
+		EnableHistory="1"
+		MaxBandwidth="4294967295"
+		MaxHistoryFiles="10"
+	>
+</IIsComputer>
+<IIsConfigObject	Location ="/LM/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="SMTP Server"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{283430C9-1850-11D2-9E03-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{76719654-05A6-11D2-9DFD-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{84FF368A-FAB3-43D7-BCDF-692C5B46E6B1}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{93D0A538-2C1E-4B68-A7C9-D73A8AA6EE97}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{960252A3-0A3A-11D2-9E00-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{A3ACFB0D-83FF-11D2-9E14-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{BD0B4366-8E03-11D2-94F6-00C04F79F1D6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{C6DF52AA-7DB0-11D2-94F4-00C04F79F1D6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{EBF159DE-A67E-11D2-94F7-00C04F79F1D6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C8D-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C8E-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C8F-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C90-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C91-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C92-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C93-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{FF3CAA23-00B9-11D2-9DFB-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D0-AA67-80C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D0-AA67-80C04FA345F6}/BindingManagerMoniker"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="@SEO.SEOGenericMoniker.1: MonikerType=Event.BindingManager DatabaseManager=SEO.SEOMetaDictionary MetabasePath=LM/smtpsvc/1/EventManager"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D0-AA67-80C04FA345F6}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="smtpsvc 1"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/EXTENSIONS"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/EXTENSIONS/DCOMCLSIDS"
+	>
+	<Custom
+		Name="MD_IISADMIN_EXTENSIONS"
+		ID="1028"
+		Value="{61738644-F196-11D0-9953-00C04FD919C1}"
+		Type="MULTISZ"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/PROPERTYREGISTRATION"
+	>
+	<Custom
+		Name="MD_METADATA_ID_REGISTRATION"
+		ID="1030"
+		Value="0-65535;Microsoft Reserved
+			65536-524288;Microsoft IIS Admin Objects Reserved"
+		Type="MULTISZ"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="INHERIT"
+	/>
+</IIsConfigObject>
+<IIsLogModules	Location ="/LM/logging"
+		AdminACL="49634462a00000005800000040000000f7c5167fb41f7dae444b7d9f28af3396e107f7dff8c2a7ef624ee1091d29fc8601dbaf2a292edb353dc3dd8491e9580c1da38701b0a30d95d1e2966b14d4440f52dacd504bca865baba6bf4be42b10888dccf4c7f07bdd5e043e824aa1caf50823103a00c3eaac64f3fafb474c6ee8451ab587997299801fd65a4c2dab0d8f09b3b146416a0d0adca8a9035a8229594f688e90abf96e688f"
+	>
+</IIsLogModules>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging"
+		LogCustomPropertyServicesString="W3SVC
+			MSFTPSVC
+			SMTPSVC
+			NNTPSVC"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Date"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="date"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyMask="1"
+		LogCustomPropertyName="Date"
+		LogCustomPropertyNodeID="1"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyName="Extended Properties"
+		LogCustomPropertyNodeID="3"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Bytes Received"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="cs-bytes"
+		LogCustomPropertyMask="8192"
+		LogCustomPropertyName="Bytes Received"
+		LogCustomPropertyNodeID="17"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Bytes Sent"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-bytes"
+		LogCustomPropertyMask="4096"
+		LogCustomPropertyName="Bytes Sent"
+		LogCustomPropertyNodeID="16"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Client IP Address"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="c-ip"
+		LogCustomPropertyMask="4"
+		LogCustomPropertyName="Client IP Address"
+		LogCustomPropertyNodeID="5"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Cookie"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs(Cookie)"
+		LogCustomPropertyMask="131072"
+		LogCustomPropertyName="Cookie"
+		LogCustomPropertyNodeID="22"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Host"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-host"
+		LogCustomPropertyMask="1048576"
+		LogCustomPropertyName="Host"
+		LogCustomPropertyNodeID="20"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Method"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-method"
+		LogCustomPropertyMask="128"
+		LogCustomPropertyName="Method"
+		LogCustomPropertyNodeID="11"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Protocol Status"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-status"
+		LogCustomPropertyMask="1024"
+		LogCustomPropertyName="Protocol Status"
+		LogCustomPropertyNodeID="14"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Protocol Substatus"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-substatus"
+		LogCustomPropertyMask="2097152"
+		LogCustomPropertyName="Protocol Substatus"
+		LogCustomPropertyNodeID="32"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Protocol Version"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-version"
+		LogCustomPropertyMask="524288"
+		LogCustomPropertyName="Protocol Version"
+		LogCustomPropertyNodeID="19"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Referer"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs(Referer)"
+		LogCustomPropertyMask="262144"
+		LogCustomPropertyName="Referer"
+		LogCustomPropertyNodeID="23"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Server IP"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="s-ip"
+		LogCustomPropertyMask="64"
+		LogCustomPropertyName="Server IP Address"
+		LogCustomPropertyNodeID="9"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Server Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="s-computername"
+		LogCustomPropertyMask="32"
+		LogCustomPropertyName="Server Name"
+		LogCustomPropertyNodeID="8"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Server Port"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="s-port"
+		LogCustomPropertyMask="32768"
+		LogCustomPropertyName="Server Port"
+		LogCustomPropertyNodeID="10"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Service Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="s-sitename"
+		LogCustomPropertyMask="16"
+		LogCustomPropertyName="Service Name"
+		LogCustomPropertyNodeID="7"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Time Taken"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="time-taken"
+		LogCustomPropertyMask="16384"
+		LogCustomPropertyName="Time Taken"
+		LogCustomPropertyNodeID="18"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/URI Query"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-uri-query"
+		LogCustomPropertyMask="512"
+		LogCustomPropertyName="URI Query"
+		LogCustomPropertyNodeID="13"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/URI Stem"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-uri-stem"
+		LogCustomPropertyMask="256"
+		LogCustomPropertyName="URI Stem"
+		LogCustomPropertyNodeID="12"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/User Agent"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs(User-Agent)"
+		LogCustomPropertyMask="65536"
+		LogCustomPropertyName="User Agent"
+		LogCustomPropertyNodeID="21"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/User Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-username"
+		LogCustomPropertyMask="8"
+		LogCustomPropertyName="User Name"
+		LogCustomPropertyNodeID="6"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Extended Properties/Win32 Status"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-win32-status"
+		LogCustomPropertyMask="2048"
+		LogCustomPropertyName="Win32 Status"
+		LogCustomPropertyNodeID="15"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/logging/Custom Logging/Time"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="time"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyMask="2"
+		LogCustomPropertyName="Time"
+		LogCustomPropertyNodeID="2"
+	>
+</IIsCustomLogModule>
+<IIsLogModule	Location ="/LM/logging/Microsoft IIS Log File Format"
+		LogModuleId="{FF160657-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB87-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/logging/NCSA Common Log File Format"
+		LogModuleId="{FF16065F-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB85-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/logging/ODBC Logging"
+		LogModuleId="{FF16065B-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB86-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/logging/W3C Extended Log File Format"
+		LogModuleId="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB88-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsSmtpService	Location ="/LM/SmtpSvc"
+		AdminACL="49634462e00000009400000040000000f7c5167fb41f7dae004b7d9fecaf3396e107f7dff8c2a7ef624e9d091f29fc8601dbaf2a292edb353dc3dd8491e9580c1da38701b0a30d95d0e0826b9cd4440a73dbcd506bc8865eb9a4bf4be42b048d25ccf4c7d178dd5e2eb55954fd0b09401469c774b0cac7f214fae15d3008157e8c1d64972f29f75bb0f09646310c7f353dcdb686a55654b33cad99ec4b9b5b473631e25867bde3988f2a68a9935d03c4e1ff0d02676dd09bdfbff87f8a7123a8cb68099b39c5abd959d29cc42d90535d83361db3e40466da678740e8b4bbedf15cbc834f493930b1"
+		AuthFlags="AuthAnonymous"
+		ConnectionTimeout="600"
+		DefaultDomain="prod2web01.prod-plat.local"
+		DomainRouting=""
+		EnableReverseDnsLookup="FALSE"
+		FullyQualifiedDomainName="prod2web01.prod-plat.local"
+		HopCount="15"
+		LocalRetryAttempts="48"
+		LocalRetryInterval="60"
+		LogFileDirectory="C:\Windows\System32\LogFiles"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20480000"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="0"
+		MaxBatchedMessages="20"
+		MaxConnections="2000000000"
+		MaxMessageSize="2097152"
+		MaxOutConnections="1000"
+		MaxOutConnectionsPerDomain="100"
+		MaxRecipients="100"
+		MaxSessionSize="10485760"
+		MaxSmtpErrors="20"
+		NTAuthenticationProviders="GSSAPI,NTLM"
+		RelayForAuth="1"
+		RelayIpList="18000080200000803c00008044000080010000004c00000000000000000000000100000001000000020000000200000004000000000000004c00008000000000000000000000000000000000ffffffff00000000"
+		RemoteRetryAttempts="48"
+		RemoteRetryInterval="60"
+		RemoteTimeout="600"
+		RoutingDll="C:\Windows\System32\inetsrv\routeldp.dll"
+		ShouldDeliver="FALSE"
+		SmartHost=""
+		SmartHostType="0"
+		SmtpAdvQueueDll="C:\Windows\System32\inetsrv\aqueue.dll"
+		SmtpDSNLanguageID="0"
+		SmtpDSNOptions="0"
+		SmtpInboundCommandSupportOptions="7697601"
+		SmtpLocalDelayExpireMinutes="720"
+		SmtpLocalNDRExpireMinutes="2880"
+		SmtpOutboundCommandSupportOptions="7"
+		SmtpRemoteDelayExpireMinutes="720"
+		SmtpRemoteNDRExpireMinutes="2880"
+		SmtpRemoteProgressiveRetry="15,30,60,240"
+		SmtpRemoteRetryThreshold="3"
+		SmtpServiceVersion="5"
+	>
+</IIsSmtpService>
+<IIsSmtpServer	Location ="/LM/SmtpSvc/1"
+		AccessSSLFlags="0"
+		AdminACL="49634462b80200007002000040000000f7c5167fb41f7dae3c497d9f30ad3396e107f7dff8c2a7ef624ef90b1f29fc8601dbaf2a292edb353dc3dd8491e9580c1da38701b0a30d95d0e0826bbfd4400a73dbcd506bc8865eb9a4bf4be42b048d06ccf0c7d178dd5e2eb55954fd0b09401469c774b0cac7f214fae15d3008157e8c1d64972e2bf75bb0f09643110c7f351dcfb686a45454b33cad99e96b9b5b471633e25847bfe3983fe41e176470597a8be70de2b895ad75d1a6d46dca43ddc3dadd8a737c2e3bff1462c6e2c4c0e23ba9f3615dcc3df17193eb2655e4af33b8c048302c24919809823550481c95de813aa4855b020c8551dbfc33478bb9b0938ee5573b22ff9e14b040022db4e4204980652ccaab5cd4e21992a82339a531285797336b9d612b9dd1764b83292856e530f7b0738796f0f44ee2cdb70d7abfbcb4b22ef333e04e016156f33669a475207b2094cefd144c70ca85e5bc1ab9ddd9dbc8af677c75e84cc0ac14cc7a4a129af786ba8409da14cc3bade5a88feb2facc53827dc960c31e782280476405e0daeec04c5474c24ecbb4763b9d7c40e5e13321743ad64ce9d823d014bc546f97c39ecd91094156bbecb5f3ebdd64c04bc8bbf8c97dfde3628caed42fccc1eff4acf4be21ffc1592bda864faab9ff8b9c016de30df194ee25baf0dced1493933217a3fc6b56d19f2a916cb09fd715e179f6dd90882606e97f5dab3e6e701b2b9c01b0040de99a08d9eb4e1aa3baedb585984661bec6a0224823f501f8141415b218862b799406f56fec5f471e01344f0b03dcdaf0f7676a413ed2f04524b39ff1e5411422aba39e3c92db26c8e2b4c7c8cdba6367bac6ffee99c8a491e510a76de8b60591b999ac7d2264950b51402b74ccfd37c5847c949c49bea54fc69386ed015d75eef5ecd3a3df1fb972a006aa400ccd967dcd42b95ef1940274b346f9f9d0fa394180c6b8dc16e735e4557b0e80671"
+		AuthFlags="AuthAnonymous"
+		BadMailDirectory="C:\Inetpub\mailroot\Badmail"
+		ConnectionTimeout="600"
+		DoMasquerade="FALSE"
+		DropDirectory="C:\Inetpub\mailroot\Drop"
+		EnableReverseDnsLookup="FALSE"
+		EtrnDays="12"
+		FullyQualifiedDomainName="prod2web01.prod-plat.local"
+		HopCount="15"
+		IPSecurity="1800008020000080280000803000008001000000380000000000000000000000000000000000000000000000000000000000000000000000"
+		LogExtFileFlags="LogExtFileDate | LogExtFileHost | LogExtFileTime | LogExtFileClientIp | LogExtFileUserName | LogExtFileSiteName | LogExtFileComputerName | LogExtFileServerIp | LogExtFileMethod | LogExtFileUriStem | LogExtFileUriQuery | LogExtFileHttpStatus | LogExtFileWin32Status | LogExtFileBytesSent | LogExtFileBytesRecv | LogExtFileTimeTaken | LogExtFileServerPort | LogExtFileUserAgent | LogExtFileCookie | LogExtFileReferer | LogExtFileProtocolVersion | LogExtFileHttpSubStatus"
+		LogFileDirectory="C:\Windows\System32\LogFiles"
+		LogFilePeriod="1"
+		LogFileTruncateSize="19922944"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="1"
+		MasqueradeDomain=""
+		MaxBatchedMessages="20"
+		MaxConnections="2000000000"
+		MaxOutConnections="1000"
+		MaxOutConnectionsPerDomain="100"
+		NTAuthenticationProviders="GSSAPI,NTLM"
+		PickupDirectory="C:\Inetpub\mailroot\Pickup"
+		QueueDirectory="C:\Inetpub\mailroot\Queue"
+		RelayForAuth="4294967295"
+		RelayIpList="18000080200000803c00008044000080010000004c00000000000000000000000100000000000000020000000100000004000000000000004c00008000000000000000000000000000000000ffffffff"
+		RemoteSmtpPort="25"
+		RemoteSmtpSecurePort="465"
+		RemoteTimeout="600"
+		RouteAction="4"
+		RouteUserName=""
+		RoutingDll="C:\Windows\System32\inetsrv\routeldp.dll"
+		SaslLogonDomain=""
+		SecureBindings=""
+		SendBadTo="Postmaster"
+		SendNdrTo=""
+		ServerAutoStart="TRUE"
+		ServerBindings="10.42.14.1:25:"
+		ServerComment=""
+		SmartHost="corecard-com.mail.protection.outlook.com"
+		SmartHostType="2"
+		SmtpInboundCommandSupportOptions="7697601"
+		SmtpLocalDelayExpireMinutes="720"
+		SmtpLocalNDRExpireMinutes="2880"
+		SmtpRemoteDelayExpireMinutes="720"
+		SmtpRemoteNDRExpireMinutes="2880"
+		SmtpRemoteProgressiveRetry="15,30,60,240"
+	>
+	<Custom
+		Name="LogFileLocaltimeRollover"
+		ID="4015"
+		Value="TRUE"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="INHERIT"
+	/>
+	<Custom
+		Name="ServerCommand"
+		ID="1012"
+		Value="1"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsSmtpServer>
+<IIsSmtpAlias	Location ="/LM/SmtpSvc/1/Alias"
+	>
+</IIsSmtpAlias>
+<IIsSmtpDL	Location ="/LM/SmtpSvc/1/DL"
+	>
+</IIsSmtpDL>
+<IIsSmtpDomain	Location ="/LM/SmtpSvc/1/Domain"
+	>
+</IIsSmtpDomain>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange Ntfs Store Driver"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SinkClass"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange.NtfsDrv"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SourceProperties"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SourceProperties/priority"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="28000"
+		Type="DWORD"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsSmtpRoutingSource	Location ="/LM/SmtpSvc/1/RoutingSources"
+		SmtpDsAccount=""
+		SmtpDsBindType="None"
+		SmtpDsDomain=""
+		SmtpDsFlags="9"
+		SmtpDsHost=""
+		SmtpDsNamingContext=""
+		SmtpDsPassword="49634462500000000600000040000000f7c5167fb51f3138b1eb6f529e30fa71338ba989cfb59108b80d231282b84c32edc067bef14b2b2bc08e83916492996df3d63a0e9a25388ebb0c191a7f17ef5ccb83b89df46ddfa6"
+		SmtpDsSchemaType="NT5"
+		SmtpDsUseCat="0"
+	>
+</IIsSmtpRoutingSource>
+<IIsSmtpSessions	Location ="/LM/SmtpSvc/1/Sessions"
+	>
+</IIsSmtpSessions>
+<IIsSmtpUser	Location ="/LM/SmtpSvc/1/User"
+	>
+</IIsSmtpUser>
+<IIsSmtpInfo	Location ="/LM/SmtpSvc/Info"
+		LogModuleList="NCSA Common Log File Format,ODBC Logging,Microsoft IIS Log File Format,W3C Extended Log File Format"
+		MD_SERVER_CAPABILITIES="80831"
+		MD_SERVER_PLATFORM="1"
+		MajorIIsVersionNumber="5"
+		MinorIIsVersionNumber="1"
+	>
+</IIsSmtpInfo>
+</MBProperty>
+</configuration>

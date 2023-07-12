@@ -1,0 +1,9 @@
+#DELETE SHARED MEMORY AND PLATFORM
+$ServerListFile = "C:\Users\ccgsconfig\Desktop\list\servers.txt"  
+$ServerList = Get-Content $ServerListFile -ErrorAction inquire 
+ForEach($computername in $ServerList) 
+{
+write-host  $computername
+Remove-Item \\$computername\c$\corecard_services\shmem*.bin -Force
+
+}

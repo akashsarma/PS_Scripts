@@ -1,0 +1,71 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220826201328
+Username: NEWVISIONSOFT\Siddhartha.chaurasia
+RunAs User: NEWVISIONSOFT\Siddhartha.chaurasia
+Configuration Name: 
+Machine: SCHAURASIA1 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'E:\SVNCheckOuts\6.ConfigTools\SecurityTestRunner\SecurityTestRunner.ps1'
+Process ID: 18952
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Logs\SecurityTestRunner_08-26-2022-20-13-28.log
+=========================================================
+************** Modules **************
+=========================================================
+ 1  -  Verify SSL, TLS and Ciphers Configuration - AWS
+ 2  -  Check the Current Status of Ciphers - AWS
+ 3  -  Verify SSL, TLS and Ciphers Configuration - On-Premises
+ 4  -  Check the Current Status of Ciphers - On-Premises
+ 0  -  Quit
+=========================================================
+==============================Security Test Runner==============================
+
+======================================================================
+SSL, TLS and Cipers Verification - On-Premies
+======================================================================
+
+=========================================
+Verifying SSL TLS and Cipers on VMCCLABELMGMT ...
+INFO: ERROR:: SSL 2.0 is not disabled on VMCCLABELMGMT
+INFO: ERROR:: SSL 3.0 is not disabled on VMCCLABELMGMT
+INFO: ERROR:: TLS 1.0 is not disabled on VMCCLABELMGMT
+INFO: ERROR:: TLS 1.1 is not disabled on VMCCLABELMGMT
+INFO: ERROR:: TLS 1.2 is not enabled on VMCCLABELMGMT
+INFO: SUCCESS:: Server VMCCLABELMGMT Supports Strong Cipers TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+INFO: SUCCESS:: Server VMCCLABELMGMT Supports Strong Cipers TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+INFO: SUCCESS:: Server VMCCLABELMGMT Supports Strong Cipers TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+INFO: SUCCESS:: Server VMCCLABELMGMT Supports Strong Cipers TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+INFO: ERROR:: Server VMCCLABELMGMT Supports Weak Cipers like *TLS_DHE*
+INFO: ERROR:: Server VMCCLABELMGMT Supports Weak Cipers like *TLS_RSA*
+INFO: ERROR:: Server VMCCLABELMGMT Supports Weak Cipers like *TLS_PSK*
+=========================================
+Verifying SSL TLS and Cipers on VMCCFPA01 ...
+INFO: SUCCESS:: SSL 2.0 is not enabled on VMCCFPA01
+INFO: SUCCESS:: SSL 3.0 is not enabled on VMCCFPA01
+INFO: SUCCESS:: TLS 1.0 is not enabled on VMCCFPA01
+INFO: SUCCESS:: TLS 1.1 is not enabled on VMCCFPA01
+INFO: SUCCESS:: TLS 1.2 is enabled on VMCCFPA01
+INFO: SUCCESS:: Server VMCCFPA01 Supports Strong Cipers TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+INFO: SUCCESS:: Server VMCCFPA01 Supports Strong Cipers TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+INFO: SUCCESS:: Server VMCCFPA01 Supports Strong Cipers TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+INFO: SUCCESS:: Server VMCCFPA01 Supports Strong Cipers TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+===================================Completed===================================
+Press any key to return to Main Menu
+Please Check SecurityTestRunner_ERRORS_08-26-2022-20-13-28.log for All Errors.
+=========================================================
+************** Modules **************
+=========================================================
+ 1  -  Verify SSL, TLS and Ciphers Configuration - AWS
+ 2  -  Check the Current Status of Ciphers - AWS
+ 3  -  Verify SSL, TLS and Ciphers Configuration - On-Premises
+ 4  -  Check the Current Status of Ciphers - On-Premises
+ 0  -  Quit
+=========================================================

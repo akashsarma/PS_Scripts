@@ -1,0 +1,37 @@
+﻿Server Type,Pod Name,ENV,Region,Scale Type,Deployment Type,Service Display Name,Service Executable,Batch File name,TriggerID,User Context Secret,Instance Count,Health check port,Range start,Range end,Directory,RunTimeMode,TriggerProcess
+SVCE,POD2,PERF,us-west-2,Full,SingleTon,DbbAppServer_Services,DbbAppServer_Services.exe,DbbAppServer_Services.bat,2,app-service-secret,45,7043,1,45,CoreIssue,STD,0
+ISSU,POD2,PERF,us-west-2,Full,SingleTon,DbbAppServer_CoreIssue,DbbAppServer_CoreIssue.exe,DbbAppServer_CoreIssue.bat,1,app-service-secret,3,7042,1,3,CoreIssue,STD,0
+AUTH,POD2,PERF,us-west-2,Full,SingleTon,DbbAppServer_CoreAuth,DbbAppServer_CoreAuth.exe,DbbAppServer_CoreAuth.bat,1,app-service-secret,30,7041,1,30,CoreAuth,STD,0
+TNP,POD2,PERF,us-west-2,Full,MultiTon,TNP,Rundbb_TNP.exe,Rundbb_TNP.bat,3,app-service-secret,60,7052,1,60,CoreIssue,STD,0
+TNP,POD2,PERF,us-west-2,Full,MultiTon,ETNP,Rundbb_ETNP.exe,Rundbb_ETNP.bat,36,app-service-secret,60,7029,1,5,CoreIssue,STD,0
+SRC,POD2,PERF,us-west-2,Full,MultiTon,MCSource,Rundbb_MCSource.exe,MC_Source.bat,7,app-service-secret,12,7050,1,12,CoreAuth,STD,0
+SRC,POD2,PERF,us-west-2,Full,MultiTon,RecordWritingWorkerService,RecordWritingWorkerService.exe,,,app-service-secret,12,7051,1,12,CoreAuth,STD,0
+SRC,POD2,PERF,us-west-2,Full,MultiTon,CoreAuthManualAdminMessage,Rundbb_CoreAuthManualAdminMessage.exe,Rundbb_CoreAuthManualAdminMessage.bat,6,app-service-secret,12,7024,1,1,CoreAuth,STD,0
+SINK,POD2,PERF,us-west-2,Full,SingleTon,MC_Sink,Rundbb_MCSink.exe,MC_Sink.bat,8,app-service-secret,72,7033,1,36,CoreAuth,STD,0
+KMS,POD2,PERF,us-west-2,Full,SingleTon,KMS,KMService.exe,,,app-service-secret,7,1111,1,7,,STD,0
+WEB,POD2,PERF,us-west-2,Full,SingleTon,,,,,app-service-secret,30,,1,30,,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,AccountReinstate,Rundbb_AccountReinstate.exe,Rundbb_AccountReinstate.bat,41,app-service-secret,80,7012,1,1,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,AlertNotification,Rundbb_AlertNotification.exe,Rundbb_AlertNotification.bat,27,app-service-secret,80,7017,11,30,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,BatchNotification,Rundbb_BatchNotification.exe,Rundbb_BatchNotification.bat,43,app-service-secret,80,7019,41,50,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,BatchNotification2,Rundbb_BatchNotification2.exe,Rundbb_BatchNotification2.bat,56,app-service-secret,80,7062,51,60,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,CoreAuthAging,Rundbb_CoreAuthAging.exe,Rundbb_CoreAuthAging.bat,2,app-service-secret,80,7023,1,2,CoreAuth,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,CoreAuthRetryAlert,Rundbb_CoreAuthRetryAlert.exe,Rundbb_CoreAuthRetryAlert.bat,9,app-service-secret,80,7025,45,48,CoreAuth,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,CoreIssueRetryAlert,Rundbb_CoreIssueRetryAlert.exe,Rundbb_CoreIssueRetryAlert.bat,31,app-service-secret,80,7026,45,48,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,DBPD,Rundbb_DBPD.exe,Rundbb_DBPD.bat,4,app-service-secret,80,7027,1,1,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,MergeAccounts,Rundbb_MergeAccounts.exe,Rundbb_MergeAccounts.bat,52,app-service-secret,80,7035,51,51,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,MSMQ,Rundbb_MSMQ.exe,Rundbb_MSMQ.bat,5,app-service-secret,80,7036,1,40,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,RetailAuthJobs,Rundbb_RetailAuthJobs.exe,Rundbb_RetailAuthJobs.bat,39,app-service-secret,80,7038,41,70,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,RewardAutoRedeem,Rundbb_RewardAutoRedeem.exe,Rundbb_RewardAutoRedeem.bat,28,app-service-secret,80,7039,1,10,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,Rewardnotification,Rundbb_Rewardnotification.exe,Rundbb_RewardNotification.bat,37,app-service-secret,80,7040,11,35,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,UpdateCall,Rundbb_UpdateCall.exe,Rundbb_UpdateCall.bat,13,app-service-secret,80,7053,41,80,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,ACHCreatePIIRequest_Cookie1,Rundbb_ACHCreatePIIRequest_Cookie1.exe,Rundbb_ACHCreatePIIRequest_Cookie1.bat,46,app-service-secret,80,7054,52,52,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,ACHSendPIIRequest_Cookie1,Rundbb_ACHSendPIIRequest_Cookie1.exe,Rundbb_ACHSendPIIRequest_Cookie1.bat,47,app-service-secret,80,7055,52,52,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,ACHCreatePIIRequest_Cookie2,Rundbb_ACHCreatePIIRequest_Cookie2.exe,Rundbb_ACHCreatePIIRequest_Cookie2.bat,54,app-service-secret,80,7056,53,53,CoreIssue,STD,0
+WKF,POD2,PERF,us-west-2,Full,MultiTon,ACHSendPIIRequest_Cookie2,Rundbb_ACHSendPIIRequest_Cookie2.exe,Rundbb_ACHSendPIIRequest_Cookie2.bat,55,app-service-secret,80,7057,53,53,CoreIssue,STD,0
+BAT,POD2,PERF,us-west-2,Full,MultiTon,AccountCreation,Rundbb_AccountCreation.exe,Rundbb_AccountCreation.bat,20,app-service-secret,4,7011,1,1,CoreIssue,STD,0
+BAT,POD2,PERF,us-west-2,Full,MultiTon,BillPayPayment,Rundbb_BillPayPayment.exe,Rundbb_BillPayPayment.bat,32,app-service-secret,4,7020,2,2,CoreIssue,STD,0
+BAT,POD2,PERF,us-west-2,Full,MultiTon,LockBox,Rundbb_LockBox.exe,Rundbb_LockBox.bat,24,app-service-secret,4,7031,1,1,CoreIssue,STD,0
+BAT,POD2,PERF,us-west-2,Full,MultiTon,IPMSettlement,Rundbb_IPMSettlement.exe,Rundbb_IPMSettlement.bat,17,app-service-secret,4,7030,2,2,CoreIssue,STD,0
+BAT,POD2,PERF,us-west-2,Full,MultiTon,IrvingOutgoingEmbossing,Rundbb_IrvingOutgoingEmbossing.exe,Rundbb_IrvingOutgoingEmbossing.bat,25,app-service-secret,4,7059,3,3,CoreIssue,STD,0
+WCF,POD2,PERF,us-west-2,Full,MultiTon,WCF,,,,app-service-secret,45,7060,1,45,,STD,0
+WCF,POD2,PERF,us-west-2,Full,MultiTon,Account Summary,,,,app-service-secret,45,7061,1,45,,STD,0

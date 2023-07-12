@@ -1,0 +1,20 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210802135836
+Username: NEWVISIONSOFT\akash.sharma
+RunAs User: NEWVISIONSOFT\akash.sharma
+Configuration Name: 
+Machine: AKASHS (Microsoft Windows NT 10.0.19042.0)
+Host Application: Powershell.exe -ExecutionPolicy Bypass -File C:\Users\akash.sharma\Desktop\Data\POWERSHELL_SCRIPT FOR PLATFORM UPGRADE\WCF\WCF_UPGRADE.ps1 -Verb RunAs
+Process ID: 14672
+PSVersion: 5.1.19041.1023
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1023
+BuildVersion: 10.0.19041.1023
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\akash.sharma\Desktop\Data\POWERSHELL_SCRIPT FOR PLATFORM UPGRADE\WCF\Log\PoolStatus_02-08-2021-01-58-36.txt
+Please Choose the option

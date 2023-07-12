@@ -1,0 +1,37 @@
+﻿Server Type,Pod Name,ENV,Region,Scale Type,Deployment Type,Service Display Name,Service Executable,Batch File name,TriggerID,User Context Secret,Instance Count,Health check port,Range start,Range end,Directory,RunTimeMode,TriggerProcess
+SVCE,POD2,PERF,us-east-1,ZDT,SingleTon,DbbAppServer_Services,DbbAppServer_Services.exe,DbbAppServer_Services.bat,2,app-upgrade-secret,45,7043,1,45,CoreIssue,ZDT,0
+ISSU,POD2,PERF,us-east-1,ZDT,SingleTon,DbbAppServer_CoreIssue,DbbAppServer_CoreIssue.exe,DbbAppServer_CoreIssue.bat,1,app-upgrade-secret,3,7042,1,3,CoreIssue,ZDT,0
+AUTH,POD2,PERF,us-east-1,ZDT,SingleTon,DbbAppServer_CoreAuth,DbbAppServer_CoreAuth.exe,DbbAppServer_CoreAuth.bat,1,app-upgrade-secret,30,7041,1,30,CoreAuth,ZDT,0
+TNP,POD2,PERF,us-east-1,ZDT,MultiTon,TNP,Rundbb_TNP.exe,Rundbb_TNP.bat,3,app-upgrade-secret,60,7052,1,60,CoreIssue,ZDT,0
+TNP,POD2,PERF,us-east-1,ZDT,MultiTon,ETNP,Rundbb_ETNP.exe,Rundbb_ETNP.bat,36,app-upgrade-secret,60,7029,1,5,CoreIssue,ZDT,0
+SRC,POD2,PERF,us-east-1,ZDT,MultiTon,MCSource,Rundbb_MCSource.exe,MC_Source.bat,7,app-upgrade-secret,12,7050,1,12,CoreAuth,ZDT,0
+SRC,POD2,PERF,us-east-1,ZDT,MultiTon,RecordWritingWorkerService,RecordWritingWorkerService.exe,,,app-upgrade-secret,12,7051,1,12,CoreAuth,ZDT,0
+SRC,POD2,PERF,us-east-1,ZDT,MultiTon,CoreAuthManualAdminMessage,Rundbb_CoreAuthManualAdminMessage.exe,Rundbb_CoreAuthManualAdminMessage.bat,6,app-upgrade-secret,12,7024,1,1,CoreAuth,ZDT,0
+SINK,POD2,PERF,us-east-1,ZDT,SingleTon,MC_Sink,Rundbb_MCSink.exe,MC_Sink.bat,8,app-upgrade-secret,72,7033,1,36,CoreAuth,ZDT,0
+KMS,POD2,PERF,us-east-1,ZDT,SingleTon,KMS,KMService.exe,,,app-upgrade-secret,7,1111,1,7,,ZDT,0
+WEB,POD2,PERF,us-east-1,ZDT,SingleTon,,,,,app-upgrade-secret,30,,1,30,,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,AccountReinstate,Rundbb_AccountReinstate.exe,Rundbb_AccountReinstate.bat,41,app-upgrade-secret,80,7012,1,1,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,AlertNotification,Rundbb_AlertNotification.exe,Rundbb_AlertNotification.bat,27,app-upgrade-secret,80,7017,11,30,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,BatchNotification,Rundbb_BatchNotification.exe,Rundbb_BatchNotification.bat,43,app-upgrade-secret,80,7019,41,50,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,BatchNotification2,Rundbb_BatchNotification2.exe,Rundbb_BatchNotification2.bat,56,app-upgrade-secret,80,7062,51,60,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,CoreAuthAging,Rundbb_CoreAuthAging.exe,Rundbb_CoreAuthAging.bat,2,app-upgrade-secret,80,7023,1,2,CoreAuth,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,CoreAuthRetryAlert,Rundbb_CoreAuthRetryAlert.exe,Rundbb_CoreAuthRetryAlert.bat,9,app-upgrade-secret,80,7025,45,48,CoreAuth,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,CoreIssueRetryAlert,Rundbb_CoreIssueRetryAlert.exe,Rundbb_CoreIssueRetryAlert.bat,31,app-upgrade-secret,80,7026,45,48,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,DBPD,Rundbb_DBPD.exe,Rundbb_DBPD.bat,4,app-upgrade-secret,80,7027,1,1,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,MergeAccounts,Rundbb_MergeAccounts.exe,Rundbb_MergeAccounts.bat,52,app-upgrade-secret,80,7035,51,51,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,MSMQ,Rundbb_MSMQ.exe,Rundbb_MSMQ.bat,5,app-upgrade-secret,80,7036,1,40,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,RetailAuthJobs,Rundbb_RetailAuthJobs.exe,Rundbb_RetailAuthJobs.bat,39,app-upgrade-secret,80,7038,41,70,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,RewardAutoRedeem,Rundbb_RewardAutoRedeem.exe,Rundbb_RewardAutoRedeem.bat,28,app-upgrade-secret,80,7039,1,10,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,Rewardnotification,Rundbb_Rewardnotification.exe,Rundbb_RewardNotification.bat,37,app-upgrade-secret,80,7040,11,35,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,UpdateCall,Rundbb_UpdateCall.exe,Rundbb_UpdateCall.bat,13,app-upgrade-secret,80,7053,41,80,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,ACHCreatePIIRequest_Cookie1,Rundbb_ACHCreatePIIRequest_Cookie1.exe,Rundbb_ACHCreatePIIRequest_Cookie1.bat,46,app-upgrade-secret,80,7054,52,52,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,ACHSendPIIRequest_Cookie1,Rundbb_ACHSendPIIRequest_Cookie1.exe,Rundbb_ACHSendPIIRequest_Cookie1.bat,47,app-upgrade-secret,80,7055,52,52,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,ACHCreatePIIRequest_Cookie2,Rundbb_ACHCreatePIIRequest_Cookie2.exe,Rundbb_ACHCreatePIIRequest_Cookie2.bat,54,app-upgrade-secret,80,7056,53,53,CoreIssue,ZDT,0
+WKF,POD2,PERF,us-east-1,ZDT,MultiTon,ACHSendPIIRequest_Cookie2,Rundbb_ACHSendPIIRequest_Cookie2.exe,Rundbb_ACHSendPIIRequest_Cookie2.bat,55,app-upgrade-secret,80,7057,53,53,CoreIssue,ZDT,0
+BAT,POD2,PERF,us-east-1,ZDT,MultiTon,AccountCreation,Rundbb_AccountCreation.exe,Rundbb_AccountCreation.bat,20,app-upgrade-secret,4,7011,1,1,CoreIssue,ZDT,0
+BAT,POD2,PERF,us-east-1,ZDT,MultiTon,BillPayPayment,Rundbb_BillPayPayment.exe,Rundbb_BillPayPayment.bat,32,app-upgrade-secret,4,7020,2,2,CoreIssue,ZDT,0
+BAT,POD2,PERF,us-east-1,ZDT,MultiTon,LockBox,Rundbb_LockBox.exe,Rundbb_LockBox.bat,24,app-upgrade-secret,4,7031,1,1,CoreIssue,ZDT,0
+BAT,POD2,PERF,us-east-1,ZDT,MultiTon,IPMSettlement,Rundbb_IPMSettlement.exe,Rundbb_IPMSettlement.bat,17,app-upgrade-secret,4,7030,2,2,CoreIssue,ZDT,0
+BAT,POD2,PERF,us-east-1,ZDT,MultiTon,IrvingOutgoingEmbossing,Rundbb_IrvingOutgoingEmbossing.exe,Rundbb_IrvingOutgoingEmbossing.bat,25,app-upgrade-secret,4,7059,3,3,CoreIssue,ZDT,0
+WCF,POD2,PERF,us-east-1,ZDT,MultiTon,WCF,,,,app-upgrade-secret,45,7060,1,45,,ZDT,0
+WCF,POD2,PERF,us-east-1,ZDT,MultiTon,Account Summary,,,,app-upgrade-secret,45,7061,1,45,,ZDT,0

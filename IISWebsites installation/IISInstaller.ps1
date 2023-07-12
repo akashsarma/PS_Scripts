@@ -1,0 +1,1 @@
+Install-WindowsFeature -ConfigurationFilePath D:\Installer\DeploymentConfigTemplate.xml
