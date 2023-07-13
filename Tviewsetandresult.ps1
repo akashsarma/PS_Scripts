@@ -2,13 +2,11 @@
 $ServerListFile = "F:\server\server.txt"  
 $ServerList = Get-Content $ServerListFile -ErrorAction SilentlyContinue 
 
-    $option = New-PSSessionOption -ProxyAccessType NoProxyServer 
-   Invoke-Command -ComputerName $computername -SessionOption $option -ErrorAction Inquire -ScriptBlock { 
-
 $FlagName = Read-host "Enter the Flag name"
 $FlagValue = Read-host "Enter the Flag value"
 
-        hostname      
+        hostname         
+
         if ($process = Get-Process tview*)
         {         
             Write-Host -foregroundcolor Red "tview is running" 
@@ -32,7 +30,14 @@ $FlagValue = Read-host "Enter the Flag value"
         Start-Sleep -Seconds 3
         Start-Process D:\CC_Runtime\rundbb.exe
         Start-Sleep -Seconds 5
-        D:\CC_Runtime\dt.exe -s $FlagName  "$FlagValue" 
-        D:\CC_Runtime\dt.exe -p $FlagName 
+        $Tview = D:\CC_Runtime\dt.exe -s $FlagName  "$FlagValue"
 
-    }
+        
+        
+              
+        if($Tview -eq "true"){
+        
+        D:\CC_Runtime\dt.exe -p $FlagName
+        
+        }else
+        {write-host "error"}
