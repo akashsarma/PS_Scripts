@@ -1,12 +1,12 @@
 ﻿Clear-Host
 $ServerListFile = "F:\server\server.txt"  
 $ServerList = Get-Content $ServerListFile -ErrorAction SilentlyContinue 
+     
 
 $FlagName = Read-host "Enter the Flag name"
 $FlagValue = Read-host "Enter the Flag value"
 
-        hostname         
-
+        hostname      
         if ($process = Get-Process tview*)
         {         
             Write-Host -foregroundcolor Red "tview is running" 
@@ -30,14 +30,17 @@ $FlagValue = Read-host "Enter the Flag value"
         Start-Sleep -Seconds 3
         Start-Process D:\CC_Runtime\rundbb.exe
         Start-Sleep -Seconds 5
-        $Tview = D:\CC_Runtime\dt.exe -s $FlagName  "$FlagValue"
+        D:\CC_Runtime\dt.exe -s $FlagName  "$FlagValue" 
+        D:\CC_Runtime\dt.exe -p $FlagName 
 
+        if ($LASTEXITCODE -ne 1){
+
+        Write-Host -ForegroundColor Green "connection successfully"
+
+        }
+        else{
+
+        write-host -ForegroundColor red "Not able to make connection"
+
+        }
         
-        
-              
-        if($Tview -eq "true"){
-        
-        D:\CC_Runtime\dt.exe -p $FlagName
-        
-        }else
-        {write-host "error"}
